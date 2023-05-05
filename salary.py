@@ -1,9 +1,13 @@
 # declare monthly cash outflows 
 expense = {
-    'rent/mortgage': 2300,
-    'loan_repayment': 400,
-    'food': 1000,
-    'transportation': 500
+    'rent/mortgage': 2300, # including property tax payments and homeowner association fees if applicable 
+    'utilies': 200, # water, electricity, heat, gas, Internet
+    'subscriptions': 100, # cloud services (iCloud, Google Cloud), streaming services (Netflix, HBO, Hulu, Disney+, Prime Video, Apple TV)
+    'student_loan_repayment': 400, # depending on repayment plans on Aidvantage 
+    'food': 1000, # including restaurants, food deliveries, and groceries 
+    'transportation': 500, # metro, gas, car maintenance, etc. 
+    'insurance': 25, # including life, auto, home insurance 
+    'misc': 400 # random Amazon purchases, ex. books, electronics, gadgets, games 
 }
 
 # declare tax brackets: each bracket value indicates the base value of that bracket
